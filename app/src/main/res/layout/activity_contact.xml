@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#637CB8"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="130dp"
+        android:text="Add Contact" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textColorHint="#1F41BB"
+
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:hint="Enter Your Name"
+            android:drawableStart="@drawable/ic_android_black_24dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="#1F41BB"
+
+            android:textColorHint="@color/white"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+
+        android:textColorHint="#1F41BB"
+
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvContactEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:hint="Enter Your Email"
+            android:drawableTint="#1F41BB"
+            android:drawableStart="@drawable/baseline_attach_email_24"
+            android:drawablePadding="10dp"
+
+            android:textColorHint="@color/white"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+
+        android:textColorHint="#1F41BB"
+
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvContactPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:drawableTint="#1F41BB"
+            android:hint="Enter Your Contact No."
+            android:drawableStart="@drawable/baseline_call_24"
+            android:drawablePadding="10dp"
+
+            android:textColorHint="@color/white"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddContact"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#1F41BB"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+
+        android:text="Add Contact" />
+</LinearLayout>
