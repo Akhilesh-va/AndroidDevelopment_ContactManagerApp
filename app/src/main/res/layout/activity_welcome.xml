@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/welcomescreen"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLoginInWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1F41BB"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:text="Log In" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignUpInWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="#1F41BB"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="700dp"
+        android:text="Register" />
+
+
+
+</LinearLayout>

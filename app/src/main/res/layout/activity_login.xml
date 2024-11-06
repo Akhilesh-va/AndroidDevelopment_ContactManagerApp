@@ -13,13 +13,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
+        app:boxStrokeColor="@color/black"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
 
         >
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tvName"
+            android:id="@+id/tvUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:layout_margin="20dp"
             android:drawableStart="@drawable/ic_android_black_24dp"
             android:drawablePadding="10dp"

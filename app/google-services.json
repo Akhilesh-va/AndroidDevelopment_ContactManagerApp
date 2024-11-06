@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208699780744",
+    "project_id": "contact-manager-app-c7b34",
+    "storage_bucket": "contact-manager-app-c7b34.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208699780744:android:8295a767a08ebd3cfa393d",
+        "android_client_info": {
+          "package_name": "com.example.contactmanagerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS1voSRHowtykGZaAfvwm10iXTSiEt2pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
